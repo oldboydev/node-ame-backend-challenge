@@ -1,0 +1,24 @@
+{
+  "name": "ame-digital-backend-challenge",
+  "version": "1.0.0",
+  "description": "Desafio backend da AME digital feito em nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oldboydev/node-ame-backend-challenge.git"
+  },
+  "keywords": [
+    "nodejs",
+    "ame",
+    "backend"
+  ],
+  "author": "Oldboy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oldboydev/node-ame-backend-challenge/issues"
+  },
+  "homepage": "https://github.com/oldboydev/node-ame-backend-challenge#readme"
+}
