@@ -1,0 +1,50 @@
+{
+  "env": {
+    "browser": false,
+    "node": true,
+    "es2021": true,
+    "jest": true
+},
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".ts", ".mjs"]
+      }
+    }
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "linebreak-style": "off",
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "@typescript-eslint/explicit-function-return-type": ["error"],
+    "@typescript-eslint/no-unsafe-assignment": ["warn"],
+    "@typescript-eslint/no-unsafe-member-access": ["warn"],
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "no-underscore-dangle": "off",
+    "space-before-blocks": "off",
+    "lines-between-class-members": "off",
+    "no-useless-constructor": "off",
+    "keyword-spacing": "off",
+    "class-methods-use-this": "off",
+    "max-classes-per-file": "warn",
+    "@typescript-eslint/require-await": "off",
+    "max-len": ["error", { "code": 160 }]
+  }
+}
